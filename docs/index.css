@@ -201,12 +201,13 @@
     #rightside_panel {
         margin: 1px;
         margin-right: 10px;
-        padding: 5px;
+        padding: 5px 5px 50px 5px;
         background: linear-gradient(rgba(135, 207, 235, 0.466), rgba(255, 255, 255, 0.288));
         grid-row: 3 / 4;
         grid-column: 4 / 5;
         box-shadow: -5px 5px 10px;
         width: fit-content;
+        height: fit-content ;
     }
 
     #darkmode_rightside_panel {
@@ -234,10 +235,10 @@
         border: solid 1px;
         margin: 10px;
         grid-row: 3/4;
-        grid-column: 1/5;
-        justify-self: center;
-        align-self: center;
+        grid-column: 2/4;
         border-radius: 20px;
+        height: fit-content;
+        width: fit-content;
     }
 
     #darkmode_yhteystiedot {
