@@ -7,7 +7,7 @@ gh-pagesiin.
 Minun sivustoni perus -> https://hajax8.github.io/Minun-sivustoni/
 #
 
- Minun sivustoni sap, single page application  
+ Minun sivustoni spa, single page application  
  ↓↓↓  
  
  Löytyy kansiosta spa, tämä kansio pitää ladata koneelle.  
