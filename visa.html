@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tilastot</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/HannunSivut.js"></script>
+    <script src="js/mark.min.js"></script>
+</head>
+
+<body>
+    <nav id="top_menu">
+        <li><a href="MunSivut1.0.html">Home</a></li>
+        <li><a href="./visa.html">Uutiset</a></li>
+        <li><a href="./kuvaGalleria.html">Galleria</a></li>
+        <li><a href="./yhteystiedot.html">Yhteystiedot</a></li>
+        <li><a href="./käyttäjäTilastot.html">Käyttäjätilastot</a></li>
+        <li>
+            <div id="nav_controls">
+                <form action="/action_page.php" id="search_form">
+                    <input type="text" placeholder="Korosta.." name="search" id="search">
+                </form>
+                <input type="checkbox" id="darkmode_toggle">
+                <label for="darkmode_toggle" class="darkmode_label"></label>
+            </div>
+        </li>
+    </nav>
+    <div id="top_header">
+        <header>
+            <h1><a href="MunSivut1.0.html">Hannun sivusto</a></h1>
+        </header>
+    </div>
+    <hgroup id="visa_otsikko">
+        <h1 style="margin-bottom: 20px;"> Luulitko tätä uutisivuksi?? Tämä onkin visasivu!</h1>
+        <h2 style="margin-bottom: 10px;">Keksin tähän visaan pelkästään huonoja kysymyksiä ja sellaisia joihin on
+            hankala vasta. Jos saat kymmenen pistettä saat ehkä jonkin palkinnon. Tällä visalla todistat, että
+            tiedät turhista asioista paljon. Tai ei välttämättä turhista, mutta sellaisista asioista joilla ei tee
+            mitään, turhista.
+        </h2>
+    </hgroup>
+    <form id="visa_form">
+        <div id="kysymys1" class="kysymykset">
+            <div style="font: bold 14px Tahoma">
+                <h2 style="margin-bottom: 10px;">U-kirjainten määrä tällä sivulla</h2>
+                <label>
+                    50<input type="radio" name="question1" class="kysymykset1"><br>
+                </label>
+                <label>
+                    40<input type="radio" name="question1" class="kysymykset1"><br>
+                </label>
+                <label>
+                    59<input type="radio" name="question1" class="kysymykset1"><br>
+                </label>
+                <label>
+                    26<input type="radio" name="question1" class="kysymykset1" id="vastaus1"><br>
+                </label>
+            </div>
+        </div>
+
+        <div id="kysymys2" class="kysymykset">
+            <div style="font: bold 14px Tahoma">
+                <h2 style="margin-bottom: 10px;">Tupakoijien määrä suomessa</h2>
+                <label>
+                    11-12%<input type="radio" name="question2" class="kysymykset2" id="vastaus2"><br>
+                </label>
+                <label>
+                    9-10%<input type="radio" name="question2" class="kysymykset2"><br>
+                </label>
+                <label>
+                    7-8%<input type="radio" name="question2" class="kysymykset2"><br>
+                </label>
+                <label>
+                    4-5%<input type="radio" name="question2" class="kysymykset2"><br>
+                </label>
+            </div>
+        </div>
+        <div id="kysymys3" class="kysymykset">
+            <div style="font: bold 14px Tahoma">
+                <h2 style="margin-bottom: 10px;">Valkohain hampaiden määrä</h2>
+                <label>
+                    n. 100<input type="radio" name="question3" class="kysymykset3"><br>
+                </label>
+                <label>
+                    n. 150<input type="radio" name="question3" class="kysymykset3"><br>
+                </label>
+                <label>
+                    n.200<input type="radio" name="question3" class="kysymykset3"><br>
+                </label>
+                <label>
+                    n.300<input type="radio" name="question3" class="kysymykset3" id="vastaus3"><br>
+                </label>
+            </div>
+        </div>
+        <div id="kysymys4" class="kysymykset">
+            <div style="font: bold 14px Tahoma">
+                <h2 style="margin-bottom: 10px;">Välilyöntien määrä tällä sivulla</h2>
+                <label>
+                    71<input type="radio" name="question4" class="kysymykset4" id="vastaus4"><br>
+                </label>
+                <label>
+                    79<input type="radio" name="question4" class="kysymykset4"><br>
+                </label>
+                <label>
+                    89<input type="radio" name="question4" class="kysymykset4"><br>
+                </label>
+                <label>
+                    50<input type="radio" name="question4" class="kysymykset4"><br>
+                </label>
+            </div>
+        </div>
+        <div id="kysymys5" class="kysymykset">
+            <div style="font: bold 14px Tahoma">
+                <h2 style="margin-bottom: 10px;">Montako kissaa omistan</h2>
+                <label>
+                    3<input type="radio" name="question5" class="kysymykset5"><br>
+                </label>
+                <label>
+                    2<input type="radio" name="question5" class="kysymykset5"><br>
+                </label>
+                <label>
+                    1<input type="radio" name="question5" class="kysymykset5" id="vastaus5"><br>
+                </label>
+                <label>
+                    4<input type="radio" name="question5" class="kysymykset5"><br>
+                </label>
+            </div>
+        </div>
+        <div id="kysymys6" class="kysymykset">
+            <div style="font: bold 14px Tahoma">
+                <h2 style="margin-bottom: 10px;">Olisitko mieluummin miljonääri vai lusmu koodaaja</h2>
+                <label>
+                    Koodaaja<input type="radio" name="question6" class="kysymykset6"><br>
+                </label>
+                <label>
+                    Koodaaja<input type="radio" name="question6" class="kysymykset6"><br>
+                </label>
+                <label>
+                    Koodaaja<input type="radio" name="question6" class="kysymykset6" id="vastaus6"><br>
+                </label>
+                <label>
+                    Koodaaja<input type="radio" name="question6" class="kysymykset6"><br>
+                </label>
+            </div>
+        </div>
+        <div id="form_nappi">
+            <button id="alusta"> Alusta </button>
+            <button onclick="visaTulokset()"> Tarkista </button>
+        </div>
+        <div id="tulokset" style="font: bold 20px Tahoma">
+
+        </div>
+
+        <script>
+            function visaTulokset() {
+                event.preventDefault();
+                var oikeatVastaukset = 0;
+
+                for (var i = 1; i <= 6; i++) {
+                    var radioNimi = document.getElementsByName('question' + i);
+
+                    for (var a = 0; a < radioNimi.length; a++) {
+                        var radioArvot = radioNimi[a];
+                        if (radioArvot.id == 'vastaus' + i && radioArvot.checked) {
+                            oikeatVastaukset += 2;
+                        }
+                    }
+                }
+                document.getElementById('tulokset').innerHTML =
+                    "Sait " + oikeatVastaukset + "/12 oikein";
+            }
+
+            document.addEventListener("DOMContentLoaded", function () {
+
+                document.getElementById('alusta').addEventListener('click', function () {
+                    event.preventDefault();
+                    var form = document.getElementById('visa_form');
+                    form.reset();
+                    document.getElementById('tulokset').innerHTML = ""
+                });
+            });
+
+        </script>
+    </form>
+    <footer id="the_footer">
+        theHannuProject™ 2023
+    </footer>
+</body>
+
+</html>
