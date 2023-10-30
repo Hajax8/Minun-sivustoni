@@ -1,7 +1,11 @@
 # Minun-sivustoni
  Minun sivustoni spa
-
-Sivu pyörii vscodesta komennolla 'node server.js' Toivottavasti toimii.
+ 
+Navigoi projektikansioom ja aja seuraavat komennot terminaalissa:
+    `npm init -y` (to create a Node.js project)
+    `npm i express` (to install Express)
+    `node server.js` (to run the server)
+Toivottavasti toimii.
 http://localhost:3000/
 
 HTML kriteerit. 
