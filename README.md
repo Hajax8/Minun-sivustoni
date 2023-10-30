@@ -1,6 +1,6 @@
 # Minun-sivustoni
 Tässä on kaksi versiota nettisivuista. SPA-versio ja perus versio. Tein kaksi versiota, koska en pystynyt laittamaan spa-versiota
-gh-pagesiin.
+gh-pagesiin ja spa versio sisältää parempaa js:n käyttöä.
 
 
 #
